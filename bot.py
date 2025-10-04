@@ -12,7 +12,8 @@ import traceback
 from datetime import datetime, timedelta
 
 # ================= CONFIG =================
-TOKEN_BOT = os.getenv("TOKEN_BOT") or "Token Bot"
+# بالای فایل، دقیقاً این را جایگزین کن:
+TOKEN_BOT = "7431334957:AAFHFjmQPnacsPYxjv08HAazcX49bF_tdsI"
 ADMIN_IDS = [6847589554]             # replace with your admin ids
 SUPPORT_ID = 7108658689              # support forward id
 CREATOR_ID = 6847589554              # visible on 'creator' button
@@ -820,4 +821,5 @@ def callback_router(call):
 if __name__ == "__main__":
     print("Super professional bot started...")
     bot.infinity_polling()
+
 
